@@ -9,7 +9,7 @@ Author
 
 **Michael Logutov**
 
-+ http://twitter.com/mdo
++ http://lmstudio.ru
 
 
 Contributors
