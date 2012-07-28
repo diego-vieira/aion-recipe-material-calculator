@@ -15,7 +15,7 @@ Author
 
 Contributors
 -------
-**Diego Vieira** (repo maintainer and current hoster)
+**Diego Vieira** (coder, repo maintainer and current hoster)
 
 + diego@customscriptz.com
 + http://customscriptz.com
