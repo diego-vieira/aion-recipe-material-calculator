@@ -2,19 +2,20 @@ Aion-Recipe-Material-Calculator
 ===============================
 
 This tool is to help with crafting of items for Aion Game.
++http://aioncalculator.com
 
 
 Author
 -------
 
-**Michael Logutov**
+**Michael Logutov** (not active)
 
 + http://lmstudio.ru
 
 
 Contributors
 -------
-**Diego Vieira**
+**Diego Vieira** (repo maintainer and current hoster)
 
 + diego@customscriptz.com
 + http://customscriptz.com
