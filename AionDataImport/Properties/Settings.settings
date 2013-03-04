@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Program.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DateTimeFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">yyyy-MM-dd hh-mm-ss</Value>
+    </Setting>
+    <Setting Name="ImportItems" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ImportRecipes" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="SkipToItemId" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ItemsPakPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data\Items\Items.pak</Value>
+    </Setting>
+    <Setting Name="PrepareZips" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ZipMaxFiles" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="AionDirectory" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\Aion</Value>
+    </Setting>
+    <Setting Name="JsDirectory" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\Diego\Documents\Visual Studio 2010\Projects\AionMaterialCalculator\Website\Recipes</Value>
+    </Setting>
+    <Setting Name="Paks" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">L10N\1_enu\data\data.pak:en</Value>
+    </Setting>
+    <Setting Name="ZipDirectory" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Temp</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

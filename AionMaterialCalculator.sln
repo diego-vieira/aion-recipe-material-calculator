@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AionDataImport", "AionDataImport\AionDataImport.csproj", "{AB67A063-8528-4A55-B10E-F411AEECC40E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "Website\Website.csproj", "{DE2AF7C1-027B-4E32-AB0F-9796E13CA124}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB67A063-8528-4A55-B10E-F411AEECC40E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB67A063-8528-4A55-B10E-F411AEECC40E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB67A063-8528-4A55-B10E-F411AEECC40E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{AB67A063-8528-4A55-B10E-F411AEECC40E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{AB67A063-8528-4A55-B10E-F411AEECC40E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AB67A063-8528-4A55-B10E-F411AEECC40E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB67A063-8528-4A55-B10E-F411AEECC40E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB67A063-8528-4A55-B10E-F411AEECC40E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{AB67A063-8528-4A55-B10E-F411AEECC40E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{AB67A063-8528-4A55-B10E-F411AEECC40E}.Release|x86.ActiveCfg = Release|Any CPU
+		{DE2AF7C1-027B-4E32-AB0F-9796E13CA124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE2AF7C1-027B-4E32-AB0F-9796E13CA124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE2AF7C1-027B-4E32-AB0F-9796E13CA124}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DE2AF7C1-027B-4E32-AB0F-9796E13CA124}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DE2AF7C1-027B-4E32-AB0F-9796E13CA124}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DE2AF7C1-027B-4E32-AB0F-9796E13CA124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE2AF7C1-027B-4E32-AB0F-9796E13CA124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE2AF7C1-027B-4E32-AB0F-9796E13CA124}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DE2AF7C1-027B-4E32-AB0F-9796E13CA124}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{DE2AF7C1-027B-4E32-AB0F-9796E13CA124}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

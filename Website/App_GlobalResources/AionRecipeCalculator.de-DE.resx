@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="close" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="ok" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="s1" xml:space="preserve">
+    <value>Dolch</value>
+  </data>
+  <data name="s10" xml:space="preserve">
+    <value>Kopf</value>
+  </data>
+  <data name="s100" xml:space="preserve">
+    <value>Keine Gegenstände</value>
+  </data>
+  <data name="s101" xml:space="preserve">
+    <value>Rezept</value>
+  </data>
+  <data name="s102" xml:space="preserve">
+    <value>Fertigkeitslevel {0}</value>
+  </data>
+  <data name="s103" xml:space="preserve">
+    <value>Nummer</value>
+  </data>
+  <data name="s104" xml:space="preserve">
+    <value>Deine E-Mail-Adreße auf der ich dir antworten kann</value>
+  </data>
+  <data name="s105" xml:space="preserve">
+    <value>Nachricht (nur in englisch oder russisch)</value>
+  </data>
+  <data name="s106" xml:space="preserve">
+    <value>E-Mail-Adresse eingeben</value>
+  </data>
+  <data name="s107" xml:space="preserve">
+    <value>Bitte eine gültige E-Mail-Adresse eingeben</value>
+  </data>
+  <data name="s108" xml:space="preserve">
+    <value>Bitte einen Nachrichtentext eingeben</value>
+  </data>
+  <data name="s109" xml:space="preserve">
+    <value>Deine Nachricht wurde erfolgreich verschickt.&lt;br /&gt;Danke!</value>
+  </data>
+  <data name="s11" xml:space="preserve">
+    <value>Stoffrüstung</value>
+  </data>
+  <data name="s110" xml:space="preserve">
+    <value>Nachricht wird versandt...</value>
+  </data>
+  <data name="s111" xml:space="preserve">
+    <value>geprocte Version</value>
+  </data>
+  <data name="s112" xml:space="preserve">
+    <value>nicht geprocte Version</value>
+  </data>
+  <data name="s113" xml:space="preserve">
+    <value>Einstellungen für den aktuellen</value>
+  </data>
+  <data name="s114" xml:space="preserve">
+    <value>Zurücksetzten</value>
+  </data>
+  <data name="s115" xml:space="preserve">
+    <value>Rezept wählen</value>
+  </data>
+  <data name="s12" xml:space="preserve">
+    <value>Lederrüstung</value>
+  </data>
+  <data name="s13" xml:space="preserve">
+    <value>Kettenrüstung</value>
+  </data>
+  <data name="s14" xml:space="preserve">
+    <value>Plattenrüstung</value>
+  </data>
+  <data name="s15" xml:space="preserve">
+    <value>Schild</value>
+  </data>
+  <data name="s16" xml:space="preserve">
+    <value>Gürtel</value>
+  </data>
+  <data name="s17" xml:space="preserve">
+    <value>Halsteil</value>
+  </data>
+  <data name="s18" xml:space="preserve">
+    <value>Ohrring</value>
+  </data>
+  <data name="s19" xml:space="preserve">
+    <value>Ring</value>
+  </data>
+  <data name="s2" xml:space="preserve">
+    <value>Schwert</value>
+  </data>
+  <data name="s20" xml:space="preserve">
+    <value>Alchemie</value>
+  </data>
+  <data name="s21" xml:space="preserve">
+    <value>Rüstungsschmeid</value>
+  </data>
+  <data name="s22" xml:space="preserve">
+    <value>Umwandlung</value>
+  </data>
+  <data name="s23" xml:space="preserve">
+    <value>Kochen</value>
+  </data>
+  <data name="s24" xml:space="preserve">
+    <value>Handwerken</value>
+  </data>
+  <data name="s25" xml:space="preserve">
+    <value>Schneidern</value>
+  </data>
+  <data name="s26" xml:space="preserve">
+    <value>Waffenschmied</value>
+  </data>
+  <data name="s27" xml:space="preserve">
+    <value>Plunder</value>
+  </data>
+  <data name="s28" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="s29" xml:space="preserve">
+    <value>Selten</value>
+  </data>
+  <data name="s3" xml:space="preserve">
+    <value>1H Schwert</value>
+  </data>
+  <data name="s30" xml:space="preserve">
+    <value>Legendär</value>
+  </data>
+  <data name="s31" xml:space="preserve">
+    <value>Einzigartig</value>
+  </data>
+  <data name="s32" xml:space="preserve">
+    <value>Episch</value>
+  </data>
+  <data name="s33" xml:space="preserve">
+    <value>Mystisch</value>
+  </data>
+  <data name="s34" xml:space="preserve">
+    <value>Eine E-Mail an mich senden</value>
+  </data>
+  <data name="s35" xml:space="preserve">
+    <value>Feedback/Fehler melden</value>
+  </data>
+  <data name="s36" xml:space="preserve">
+    <value>Zum Diskussionsbeitrag im aionsource-Forum zu&lt;br /&gt;diesem Materialcalulator (in einem neuen Fenster)</value>
+  </data>
+  <data name="s37" xml:space="preserve">
+    <value>Diskutiere im Forum</value>
+  </data>
+  <data name="s38" xml:space="preserve">
+    <value>Aktuelle Seite neu laden ohne &lt;br /&gt;Rezeptauswahl (im aktuellen Fenster)</value>
+  </data>
+  <data name="s39" xml:space="preserve">
+    <value>Neu</value>
+  </data>
+  <data name="s4" xml:space="preserve">
+    <value>2H Schwert</value>
+  </data>
+  <data name="s40" xml:space="preserve">
+    <value>Kein Rezept gewählt.</value>
+  </data>
+  <data name="s41" xml:space="preserve">
+    <value>Rezept</value>
+  </data>
+  <data name="s42" xml:space="preserve">
+    <value>Alle details in der datenbank seite (in neuem Fenster)</value>
+  </data>
+  <data name="s43" xml:space="preserve">
+    <value>Rezeptinformationen ansehen</value>
+  </data>
+  <data name="s44" xml:space="preserve">
+    <value>Fehler melden, Anregungen oder zusätzliche Übersetzung</value>
+  </data>
+  <data name="s45" xml:space="preserve">
+    <value>Berichte mir!</value>
+  </data>
+  <data name="s46" xml:space="preserve">
+    <value>Aion Recipe Material Calculator 3.0</value>
+  </data>
+  <data name="s47" xml:space="preserve">
+    <value>Benötigt werden noch {0}</value>
+  </data>
+  <data name="s48" xml:space="preserve">
+    <value>Ich habe</value>
+  </data>
+  <data name="s49" xml:space="preserve">
+    <value>Preis pro Stück</value>
+  </data>
+  <data name="s5" xml:space="preserve">
+    <value>Stangenwaffe</value>
+  </data>
+  <data name="s50" xml:space="preserve">
+    <value>Du musst eine Zahl eingeben</value>
+  </data>
+  <data name="s51" xml:space="preserve">
+    <value>Die Eingabe darf nur aus Ziffern bestehen</value>
+  </data>
+  <data name="s52" xml:space="preserve">
+    <value>Die Eingabe muss grösser oder gleich Null sein</value>
+  </data>
+  <data name="s53" xml:space="preserve">
+    <value>Wahrscheinlichkeit in %</value>
+  </data>
+  <data name="s54" xml:space="preserve">
+    <value>Die Wahrscheinlichkeit für das erfolgreiche Herstellen von '{0}' eingeben</value>
+  </data>
+  <data name="s55" xml:space="preserve">
+    <value>Bitte eine gültige Dezimalzahl eingeben</value>
+  </data>
+  <data name="s56" xml:space="preserve">
+    <value>Die Eingabe muss grösser als 1 sein</value>
+  </data>
+  <data name="s57" xml:space="preserve">
+    <value>Kein Rezept gefunden</value>
+  </data>
+  <data name="s58" xml:space="preserve">
+    <value>{0} - Aion Materialcalculator für Rezepte</value>
+  </data>
+  <data name="s59" xml:space="preserve">
+    <value>Gegenstandsinformationen ansehen</value>
+  </data>
+  <data name="s6" xml:space="preserve">
+    <value>Buch</value>
+  </data>
+  <data name="s60" xml:space="preserve">
+    <value>Haben</value>
+  </data>
+  <data name="s61" xml:space="preserve">
+    <value>Daten in ein anderes Format exportieren</value>
+  </data>
+  <data name="s62" xml:space="preserve">
+    <value>Zum bearbeiten klicken</value>
+  </data>
+  <data name="s63" xml:space="preserve">
+    <value>Teilsumme</value>
+  </data>
+  <data name="s64" xml:space="preserve">
+    <value>Benötigt</value>
+  </data>
+  <data name="s65" xml:space="preserve">
+    <value>Gesamtpreis</value>
+  </data>
+  <data name="s66" xml:space="preserve">
+    <value>Verkaufspreis pro Stück</value>
+  </data>
+  <data name="s67" xml:space="preserve">
+    <value>Verkaufspreis für diesen Gegenstand. Standardmäßig wird der Händlerverkaufspreis angezeigt. zum bearbeiten anklicken</value>
+  </data>
+  <data name="s68" xml:space="preserve">
+    <value>Gesamt Verkaufspreis</value>
+  </data>
+  <data name="s69" xml:space="preserve">
+    <value>Profit (ohne die Materialien die du bereits hast)</value>
+  </data>
+  <data name="s7" xml:space="preserve">
+    <value>Kugel</value>
+  </data>
+  <data name="s70" xml:space="preserve">
+    <value>Profit</value>
+  </data>
+  <data name="s71" xml:space="preserve">
+    <value>Preis</value>
+  </data>
+  <data name="s72" xml:space="preserve">
+    <value>Verkaufspreis für '{0}' eingeben</value>
+  </data>
+  <data name="s73" xml:space="preserve">
+    <value>BB-Code</value>
+  </data>
+  <data name="s74" xml:space="preserve">
+    <value>Ingame-Code</value>
+  </data>
+  <data name="s75" xml:space="preserve">
+    <value>Namen</value>
+  </data>
+  <data name="s76" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="s77" xml:space="preserve">
+    <value>Ingame-Link</value>
+  </data>
+  <data name="s78" xml:space="preserve">
+    <value>Ingame-Link (nur benötigte Materialien)</value>
+  </data>
+  <data name="s79" xml:space="preserve">
+    <value>{0}  Stück kann/können zu {1} mit {2} hergestellt werden</value>
+  </data>
+  <data name="s8" xml:space="preserve">
+    <value>Stab</value>
+  </data>
+  <data name="s80" xml:space="preserve">
+    <value>Wahrscheinlichkeit für eine erfolgreiche Herstellung - zum bearbeiten anklicken</value>
+  </data>
+  <data name="s81" xml:space="preserve">
+    <value>Die geprocte Version dieses Gegenstands anzeigen</value>
+  </data>
+  <data name="s82" xml:space="preserve">
+    <value>Die nicht geprocte Version dieses Gegenstands anzeigen</value>
+  </data>
+  <data name="s83" xml:space="preserve">
+    <value>Benötigt - zum bearbeiten anklicken</value>
+  </data>
+  <data name="s84" xml:space="preserve">
+    <value>Anklicken um die Auswahl für diesen Gegenstand als Material&lt;br /&gt;für dieses Rezept zu verändern</value>
+  </data>
+  <data name="s85" xml:space="preserve">
+    <value>Lade Rezepte...</value>
+  </data>
+  <data name="s86" xml:space="preserve">
+    <value>Keine Rezepte gefunden</value>
+  </data>
+  <data name="s87" xml:space="preserve">
+    <value>Fraktion</value>
+  </data>
+  <data name="s88" xml:space="preserve">
+    <value>Elyos</value>
+  </data>
+  <data name="s89" xml:space="preserve">
+    <value>Asmodians</value>
+  </data>
+  <data name="s9" xml:space="preserve">
+    <value>Bogen</value>
+  </data>
+  <data name="s90" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="s91" xml:space="preserve">
+    <value>Groß- und Kleinschreibung beachten / nicht beachten</value>
+  </data>
+  <data name="s92" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="s93" xml:space="preserve">
+    <value>Sortierung</value>
+  </data>
+  <data name="s94" xml:space="preserve">
+    <value>Herstellungsgrad</value>
+  </data>
+  <data name="s95" xml:space="preserve">
+    <value>Gegenstandslevel</value>
+  </data>
+  <data name="s96" xml:space="preserve">
+    <value>Seltenheit</value>
+  </data>
+  <data name="s97" xml:space="preserve">
+    <value>Gegenstandslevel</value>
+  </data>
+  <data name="s98" xml:space="preserve">
+    <value>Schwierigkeitsgrad</value>
+  </data>
+  <data name="s99" xml:space="preserve">
+    <value>Filter zurücksetzten</value>
+  </data>
+  <data name="s116" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="s117" xml:space="preserve">
+    <value>Spenden Sie oder klicken Sie auf die Werbung zu halten dieses Instrument lebendig und aktualisiert.</value>
+  </data>
+  <data name="s118" xml:space="preserve">
+    <value>https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donateCC_LG.gif</value>
+  </data>
+  <data name="s119" xml:space="preserve">
+    <value>Danke</value>
+  </data>
+  <data name="s120" xml:space="preserve">
+    <value>Letzte Aktualisierung:</value>
+  </data>
+  <data name="s121" xml:space="preserve">
+    <value>Aion Database Version:</value>
+  </data>
+  <data name="s122" xml:space="preserve">
+    <value>dd/MM/yyyy HH:mm:ss</value>
+  </data>
+  <data name="s123" xml:space="preserve">
+    <value>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=F6SST7XNMZN4C</value>
+  </data>
+</root>
