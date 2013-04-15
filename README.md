@@ -2,7 +2,13 @@ Aion Recipe Material Calculator
 ===============================
 
 This tool is to help with crafting of items for Aion Game.
-+ http://aioncalculator.com (currently offline and looking for a free hosting space for the tool)
++ http://aioncalculator.com (currently offline and looking for a hosting space for the tool - contact me if you have one)
+
+
+Requirements
+-------
+IIS + ASP.Net 4
+Extract the /Website/Recipes.zip contents to /Website/Recipes/
 
 
 Author
